@@ -1,0 +1,165 @@
+object Form1: TForm1
+  Left = 237
+  Height = 425
+  Top = 143
+  Width = 537
+  Caption = 'Form Data Mahasiswa'
+  ClientHeight = 425
+  ClientWidth = 537
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 152
+    Height = 30
+    Top = 24
+    Width = 193
+    Caption = 'DATA MAHASISWA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 72
+    Width = 132
+    Caption = 'Nomor Induk Mahasiswa'
+  end
+  object Edit1: TEdit
+    Left = 176
+    Height = 23
+    Top = 72
+    Width = 184
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 104
+    Width = 93
+    Caption = 'Nama Mahasiswa'
+    OnClick = Label3Click
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 134
+    Width = 76
+    Caption = 'Program Studi'
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 15
+    Top = 168
+    Width = 33
+    Caption = 'Jenjag'
+  end
+  object Edit2: TEdit
+    Left = 176
+    Height = 23
+    Top = 104
+    Width = 288
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 176
+    Height = 23
+    Top = 136
+    Width = 169
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 176
+    Height = 23
+    Top = 168
+    Width = 80
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 17
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'Tampilkan'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 176
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 360
+    Height = 25
+    Top = 224
+    Width = 75
+    Caption = 'Keluar'
+    TabOrder = 6
+    OnClick = Button3Click
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 15
+    Top = 276
+    Width = 132
+    Caption = 'Nomor Induk Mahasiswa'
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 15
+    Top = 308
+    Width = 93
+    Caption = 'Nama Mahasiswa'
+    OnClick = Label3Click
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 15
+    Top = 338
+    Width = 76
+    Caption = 'Program Studi'
+  end
+  object Label9: TLabel
+    Left = 16
+    Height = 15
+    Top = 372
+    Width = 33
+    Caption = 'Jenjag'
+  end
+  object Edit5: TEdit
+    Left = 176
+    Height = 23
+    Top = 272
+    Width = 184
+    TabOrder = 7
+  end
+  object Edit6: TEdit
+    Left = 176
+    Height = 23
+    Top = 304
+    Width = 288
+    TabOrder = 8
+  end
+  object Edit7: TEdit
+    Left = 176
+    Height = 23
+    Top = 336
+    Width = 169
+    TabOrder = 9
+  end
+  object Edit8: TEdit
+    Left = 176
+    Height = 23
+    Top = 368
+    Width = 80
+    TabOrder = 10
+  end
+end
